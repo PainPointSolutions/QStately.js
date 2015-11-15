@@ -1,40 +1,20 @@
 {
-  "name": "stately.js",
-  "description": "Stately.js is a JavaScript based finite-state machine (FSM) engine for Node.js and the browser.",
+  "name": "qstately.js",
+  "description": "QStately.js is a JavaScript based finite-state machine (FSM) engine for Node.js.",
   "homepage": "https://github.com/angustus/Stately.js",
-  "author": "Florian Schäfer",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/fschaefer/Stately.js.git"
-  },
-  "keywords": [
-    "automata",
-    "finite",
-    "fsm",
-    "machine",
-    "state"
-  ],
-  "bugs": {
-    "url": "https://github.com/fschaefer/Stately.js/issues",
-    "email": "florian.schaefer+Stately.js@gmail.com"
-  },
+  "author": "Ole Reglitzki <ole.reglitzki@painpoint-solutions.net> (https://github.com/angustus)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "Stately.js",
   "dependencies": {
     "q": "^1.4.1"
   },
-  "devDependencies": {},
   "contributors": [
     "Rowan Udell <rowanu@gmail.com> (https://github.com/rowanu)",
     "Cory Watson <cory.andrew.1988@gmail.com> (https://github.com/coryandrew1988)",
-    "Ole Reglitzki <ole.reglitzki@painpoint-solutions.net> (https://github.com/angustus)"
+    "Florian Schäfer"
   ],
-  "engine": "node >= 0.8.0",
-  "main": "Stately.js",
-  "version": "2.0.0",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "MIT"
+  "repository": {"type": "git", "url": "git://github.com:angustus/QStately.js.git"},
+  "keywords": ["automata", "finite", "fsm", "machine", "state"],
+  "engine": "node >= 0.8.0"
 }
