@@ -5,7 +5,7 @@
   "author": "Ole Reglitzki <ole.reglitzki@painpoint-solutions.net> (https://github.com/angustus)",
   "version": "0.1.0",
   "license": "MIT",
-  "main": "Stately.js",
+  "main": "QStately.js",
   "dependencies": {
     "q": "^1.4.1"
   },
@@ -15,6 +15,6 @@
     "Florian Schäfer"
   ],
   "repository": {"type": "git", "url": "git://github.com:angustus/QStately.js.git"},
-  "keywords": ["automata", "finite", "fsm", "machine", "state"],
+  "keywords": ["automata", "finite", "fsm", "machine", "state", "deferred"],
   "engine": "node >= 0.8.0"
 }
